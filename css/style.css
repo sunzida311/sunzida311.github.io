@@ -1390,4 +1390,71 @@
 	width: 80%;
 	border-top-color: #6b6767;
   }
-  
+/* =======================================================
+  *
+  * 	Try
+  *
+  * ======================================================= */
+ 
+.venn-container {
+position: relative;
+width: 300px;
+height: 250px;
+margin: auto;
+}
+.circle {
+position: absolute;
+width: 150px;
+height: 150px;
+border-radius: 50%;
+opacity: 0.6;
+}
+.circle1 {
+background-color: lightgreen;
+top: 30px;
+left: 30px;
+}
+.circle2 {
+background-color: lightblue;
+top: 30px;
+left: 120px;
+}
+.circle3 {
+background-color: cyan;
+top: 90px;
+left: 75px;
+}
+/* Text styles */
+.label {
+position: absolute;
+font-weight: bold;
+z-index: 2; /* ensures text is above circles */
+}
+.label1 {
+color: #000;
+font-size: 13px;
+top: 80px;
+left: 62px;
+transform: rotate(-45deg);
+}
+.label2 {
+color: #000;
+font-size: 13px;
+top: 85px;
+left: 164px;
+transform: rotate(40deg);
+}
+.label3 {
+color: #000;
+font-size: 13px;
+top: 150px;
+left: 115px;
+text-align: center;
+}
+.caption {
+text-align: center;
+margin-top: 15px;
+margin-bottom: 30px;
+font-weight: bold;
+font-style: italic;
+}
